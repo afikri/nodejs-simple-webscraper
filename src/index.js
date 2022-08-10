@@ -24,11 +24,6 @@ axios(url).
     }).
     catch(err=>console.log(err))
 
-
-app.get('/', (req, res) => {
-    res.send('Hello World!')
-})
-
 app.listen(PORT, () => {
     console.log(`Example app listening on PORT ${PORT}`)
 })
